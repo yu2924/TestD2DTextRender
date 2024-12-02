@@ -24,12 +24,12 @@ I made two prototypes of the application and made comparative observations of th
 Here is a capture of each rendering result:
 |Condition|Capture|Quality|
 |-|-|-|
-|DirectWrite (Default)|<img src="result/TestDirectWrite-1-Default.png" Height="64">|😊|
-|DirectWrite (ClearType)|<img src="result/TestDirectWrite-2-ClearType.png" Height="64">|😊|
-|DirectWrite (GrayScale)|<img src="result/TestDirectWrite-3-GrayScale.png" Height="64">|😊|
-|DirectWrite (Aliased)|<img src="result/TestDirectWrite-4-Aliased.png" Height="64">|😡|
-|RichEditD2D (GDI)|<img src="result/TestRichEditD2D-2-GDI.png" Height="64">|😊|
-|RichEditD2D (D2D)|<img src="result/TestRichEditD2D-1-D2D.png" Height="64">|🤔|
+|DirectWrite (Default)|<img src="result/TestDirectWrite-Default.png" Height="64">|😊|
+|DirectWrite (ClearType)|<img src="result/TestDirectWrite-ClearType.png" Height="64">|😊|
+|DirectWrite (GrayScale)|<img src="result/TestDirectWrite-GrayScale.png" Height="64">|😊|
+|DirectWrite (Aliased)|<img src="result/TestDirectWrite-Aliased.png" Height="64">|😡|
+|RichEditD2D (GDI)|<img src="result/TestRichEditD2D-GDI.png" Height="64">|😊|
+|RichEditD2D (D2D)|<img src="result/TestRichEditD2D-D2D.png" Height="64">|🤔|
 
 - **DirectWrite (Aliased)** のケースでは顕著なエイリアスが認められ、予想通りの結果である。
 - **RichEditD2D (D2D)** のケースでは少々のエイリアスが認められ、RichEditD2Dコントロールの不備であると考える。
