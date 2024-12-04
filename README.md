@@ -39,7 +39,7 @@ Here is a capture of each rendering result:
 総合して、Direct2D/DirectWrite APIの動作に問題は無く、RichEditD2DコントロールのD2Dモードに問題があるようだ。
 
 - **DirectWrite (Aliased)** shows significant aliasing, which is to be expected.
-- **RichEditD2D (D2D)** shows a small amount of aliasing, which we believe is a fault of the RichEditD2D control.
+- **RichEditD2D (D2D)** shows a small amount of aliasing, which I believe is a fault of the RichEditD2D control.
 - In other cases, anti-aliasing appears to be good.
 
 Overall, there is no problem with the Direct2D/DirectWrite API behavior, and there seems to be a problem with the D2D mode of the RichEditD2D control.
